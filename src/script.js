@@ -23,4 +23,7 @@ import "./images/EXPO.jpg";
 import "./images/ISPSNG.png";
 import "./images/HEPA.jpg";
 import "./images/LIB.jpg";
+import "./images/telegram.png";
+import "./images/facebook.png";
+import "./images/instagram.png";
 

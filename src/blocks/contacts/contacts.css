@@ -1,0 +1,11 @@
+.contacts{
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  padding-top:0;
+  text-align: center;
+  font-size: 19px;
+  padding-left: 2px;
+  padding-right: 2px;
+  line-height: 1;
+}

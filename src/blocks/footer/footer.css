@@ -1,0 +1,9 @@
+@import url(./__text-logo/footer__text-logo.css);
+@import url(./__links/footer__links.css);
+@import url(./__logo/footer__logo.css);
+
+.footer{
+  background: linear-gradient(to right, #0000cc87 30%, #3366ccba 89%)  !important;
+  box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
