@@ -1,0 +1,9 @@
+.who-we-are__card-title{
+  font-family: 'Montserrat',Arial,sans-serif;
+    line-height: 1.25;
+    font-weight: 700 !important;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    font-size: 22px;
+}

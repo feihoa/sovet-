@@ -1,0 +1,7 @@
+.header__ofc-link{
+  color: white;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}

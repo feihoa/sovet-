@@ -1,0 +1,6 @@
+.header__links{
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}

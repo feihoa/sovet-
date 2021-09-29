@@ -1,0 +1,17 @@
+@import url(./__title/main__title.css);
+@import url(./__subtitle/main__subtitle.css);
+@import url(./__form-btn/main__form-btn.css);
+
+.main{
+  max-width: 1440px;
+  min-width: 300px;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px auto 0px auto;
+  justify-content: center;
+  align-items: baseline;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}

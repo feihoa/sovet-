@@ -1,0 +1,13 @@
+.who-we-are__title{
+  margin-top: 0;
+  color: #574DD8;
+  font-size: 65px;
+    font-family: 'Montserrat',Arial,sans-serif;
+    line-height: 1.15;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    display: inline;
+    font-weight: 550;
+    vertical-align:top;
+}

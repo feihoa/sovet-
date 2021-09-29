@@ -1,0 +1,8 @@
+.main-block{
+  background: linear-gradient(to top right, #100873 24%, #7972d8 100%);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 150px;
+}

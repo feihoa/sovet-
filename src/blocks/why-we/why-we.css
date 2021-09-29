@@ -1,0 +1,7 @@
+@import url(./__title/why-we____title.css);
+@import url(./__reason/why-we__reason.css);
+
+.why-we{
+  background: linear-gradient(to bottom left, #7ed2f751 0%, #1506f050 71%);
+  padding-bottom: 40px;
+}
