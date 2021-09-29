@@ -1,4 +1,5 @@
-import M from 'materialize-css'
+import "./style.scss";
+import 'materialize-css'
 import "./index.css";
 import "./images/REC.png";
 import "./images/TPP.png";
@@ -7,5 +8,19 @@ import "./images/CCPIT.png";
 import "./images/HYVE.png";
 import "./images/MF.png";
 import "./images/SLOVAK.jpg";
-import "./images/GAZ.jpg";
+import "./images/GAZ.svg";
+import "./images/ASI.png";
+import "./images/RUCH.jpg";
+import "./images/HUAMIN.jpg";
+import "./images/SKOLTECH.png";
+import "./images/MYB.png";
+import "./images/MEC.png";
+import "./images/DHH.png";
+import "./images/BRICS.png";
+import "./images/RCC.png";
+import "./images/MMI.png";
+import "./images/EXPO.jpg";
+import "./images/ISPSNG.png";
+import "./images/HEPA.jpg";
+import "./images/LIB.jpg";
 

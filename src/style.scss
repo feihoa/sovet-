@@ -1,0 +1,92 @@
+html{
+  line-height: 1.5;
+
+  @media only screen and (max-width: 600px) {
+
+  .title{
+    font-size: 28px !important;
+
+  }
+  .main__title{
+    font-size: 22px !important;
+    max-width: 90%;
+    margin-top: 20px;
+
+  }
+  .main__subtitle{
+    font-size: 18px !important;
+
+  }
+  .header__text-logo{
+    display: none;
+  }
+  .who-we-are__title{
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .who-we-are__subtitle{
+    margin: 0;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .who-we-are{
+    padding-top:10px;
+    padding-bottom:10px
+  }
+  .services__title{
+    margin-top:20px;
+  }
+  .main__form-bt{
+    width: 90%;
+  }
+  .card-title{
+    font-size: 18px !important;
+  }
+  .who-we-are__card-subtitle{
+    font-size: 16px !important;
+
+  }
+  }
+
+  @media only screen and (min-width: 600px) and (max-width:992px) {
+
+    .main__title{
+      max-width: 90%;
+      margin-top: 20px;
+
+    }
+    .who-we-are__title{
+      text-align: center;
+      display: block;
+      margin-bottom: 10px;
+    }
+    .who-we-are__subtitle{
+      margin: 0;
+      display: block;
+      margin: auto;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .who-we-are{
+      padding-top:10px;
+      padding-bottom:10px
+    }
+    .container__adapt{
+      width: 90% !important;
+    }
+  }
+
+  @media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .container__adapt{
+      width: 90% !important;
+    }
+  }
+
+  @media only screen and (min-width: 1201px) {
+    .container__adapt{
+      width: 90% !important;
+    }
+  }
+
+}
