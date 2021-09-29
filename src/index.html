@@ -27,69 +27,77 @@
         <h1 class="main__title title">Организация продаж российской продукции в любую страну мира</h1>
         <h5 class="main__subtitle">Хотите выйти на экспорт, но не знаете, с чего начать?
           <br>Мы расскажем!</h5>
-          <div class="row">
-            <form class="col s12 input-field-form">
-              <div class="row input-form-row">
-                <div class="input-field col s6">
+          <div class="container container__adapt">
+          <div class="row" >
+            <form class="col s12 m12 l12 xl12 input-field-form" width="100%">
+              <div class="row" >
+                <div class="input-field col s12 m3 l3 xl3">
                   <i class="material-icons prefix icon-blue">account_circle</i>
                   <input id="icon_prefix" type="text" class="validate">
                   <label for="icon_prefix">Имя</label>
+                  <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
                 </div>
-                <div class="input-field col s6">
+                <div class="input-field col s12 m3 l3 xl3">
                   <i class="material-icons prefix icon-blue">phone</i>
                   <input id="icon_telephone" type="tel" class="validate">
                   <label for="icon_telephone">Телефон</label>
+                  <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
                 </div>
-                <div class="input-field col s6">
+                <div class="input-field col s12 m3 l3 ">
                   <i class="material-icons prefix icon-blue">email</i>
                   <input id="icon_email" type="email" class="validate">
                   <label for="icon_email">Email</label>
+                  <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
                 </div>
-                <a class="waves-effect waves-light btn main__form-btn">Отправить</a>
+                <div class="col input-field s10 m3 l3 xl3 offset-s1 main__form-btn">
+                  <a class="waves-effect waves-light btn main__form-bt">Отправить</a>
+                </div>
               </div>
             </form>
           </div>
         </div>
+        </div>
       </section>
       <section class="who-we-are">
         <div class="who-we-are__container">
-          <h1 class="title who-we-are__title ">КТО МЫ?</h1>
-          <p class="who-we-are__subtitle "><strong>Консалтинговое агентство в сфере экспорта</strong><br>
+          <h1 class="title who-we-are__title flow-text">КТО МЫ?</h1>
+          <p class="who-we-are__subtitle flow-text"><strong>Консалтинговое агентство в сфере экспорта</strong><br>
             Мы помогаем российским компаниям находить иностранных партнеров и организовать экспорт продукции на зарубежные рынки
           </p>
             <div class="row">
-              <div class="col x14 l4 m12 ml2 center-align">
+              <div class="col x14 l4 m12 ml2 center-align who-we-are__card">
                 <div class="card white darken-1 who-we-are__card">
                   <div class="card-content black-text who-we-are__card-content">
-                    <span class="card-title who-we-are__card-title">Компания с собcтвенными представительствами в Европе</span>
-                    <p class="who-we-are__card-subtitle">Германия, Франция, Италия и Эстония</p>
+                    <span class="card-title who-we-are__card-title flow-text">Компания с собcтвенными представительствами в Европе</span>
+                    <p class="who-we-are__card-subtitle flow-text">Германия, Франция, Италия и Эстония</p>
                   </div>
                 </div>
               </div>
-              <div class="col x14 l4 m12 ml2  center-align">
+              <div class="col x14 l4 m12 ml2  center-align who-we-are__card">
                 <div class="card white darken-1 who-we-are__card">
                   <div class="card-content black-text who-we-are__card-content">
                     <img class="logo text-center" width="50%" src="<%=require('../../images/REC.png">
-                    <span class="card-title who-we-are__card-title">Аккредитованный партнер РЭЦ</span>
-                    <p class="who-we-are__card-subtitle">Сотрудничаем с более чем 50 регионами РФ</p>
+                    <span class="card-title who-we-are__card-title flow-text">Аккредитованный партнер РЭЦ</span>
+                    <p class="who-we-are__card-subtitle flow-text">Сотрудничаем с более чем 50 регионами РФ</p>
                   </div>
                 </div>
               </div>
-              <div class="col x14 l4 m12 ml2  center-align">
+              <div class="col x14 l4 m12 ml2  center-align who-we-are__card">
                 <div class="card white darken-1 who-we-are__card">
                   <div class="card-content black-text who-we-are__card-content">
-                    <span class="card-title who-we-are__card-title">Официальный партнер крупнейших e-commerce площадок</span>
-                    <p class="who-we-are__card-subtitle">DTAD, IndustryStock и Bobbie на территории РФ и СНГ</p>
+                    <span class="card-title who-we-are__card-title flow-text">Официальный партнер крупнейших e-commerce площадок</span>
+                    <p class="who-we-are__card-subtitle flow-text">DTAD, IndustryStock и Bobbie на территории РФ и СНГ</p>
                   </div>
               </div>
-            </div>
+          </div>
           </div>
         </div>
       </section>
       <section class="services">
           <h2 class="title services__title ">Наши услуги</h2>
+          <div class="container">
           <div class="row">
-            <div class="col s12 m6 l6 xl6">
+            <div class="col s12 m6 l4 xl4">
               <div class="card horizontal">
                 <div class="card-image">
                   <img src="https://lorempixel.com/100/190/nature/6">
@@ -104,7 +112,7 @@
                 </div>
               </div>
             </div>
-            <div class="col s12 m6 l6 xl6">
+            <div class="col s12 m6 l4 xl4">
               <div class="card horizontal">
                 <div class="card-image">
                   <img src="https://lorempixel.com/100/190/nature/6">
@@ -119,9 +127,7 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col s12 m6 l6 xl6">
+            <div class="col s12 m6 l4 xl4">
               <div class="card horizontal">
                 <div class="card-image">
                   <img src="https://lorempixel.com/100/190/nature/6">
@@ -136,7 +142,7 @@
                 </div>
               </div>
             </div>
-            <div class="col s12 m6 l6 xl6">
+            <div class="col s12 m6 l4 xl4">
               <div class="card horizontal">
                 <div class="card-image">
                   <img src="https://lorempixel.com/100/190/nature/6">
@@ -151,9 +157,7 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col s12 m6 l6 xl6">
+            <div class="col s12 m6 l4 xl4">
               <div class="card horizontal">
                 <div class="card-image">
                   <img src="https://lorempixel.com/100/190/nature/6">
@@ -168,7 +172,7 @@
                 </div>
               </div>
             </div>
-            <div class="col s12 m6 l6 xl6">
+            <div class="col s12 m6 l4 xl4">
               <div class="card horizontal">
                 <div class="card-image">
                   <img src="https://lorempixel.com/100/190/nature/6">
@@ -181,99 +185,283 @@
                     <a href="#">This is a link</a>
                   </div>
                 </div>
+              </div>
               </div>
             </div>
           </div>
       </section>
       <section class="why-we">
         <h2 class="why-we__title title">Почему мы?</h2>
+        <div class="container">
         <div class="row">
-          <div class="col s12 m4 why-we__reason">
+          <div class="col s12 m3 why-we__reason">
             <div class="card-panel white">
               <span class="black-text">I am a very simple card. I am good at containing small bits of information.
               I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
               </span>
             </div>
           </div>
-          <div class="col s12 m4 why-we__reason">
+          <div class="col s12 m3 why-we__reason">
             <div class="card-panel white">
               <span class="black-text">I am a very simple card. I am good at containing small bits of information.
               I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
               </span>
             </div>
           </div>
-          <div class="col s12 m4 why-we__reason">
+          <div class="col s12 m3 why-we__reason">
             <div class="card-panel white">
               <span class="black-text">I am a very simple card. I am good at containing small bits of information.
               I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
               </span>
             </div>
           </div>
+          <div class="col s12 m3 why-we__reason">
+            <div class="card-panel white">
+              <span class="black-text">I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+              </span>
+            </div>
+          </div>
+        </div>
         </div>
       </section>
       <section class="partners">
         <h2 class="partners__title title">Наши партнеры</h2>
         <div class="container">
-          <div class="row partners__row">
-            <div class="col s12 m6 partners__partner">
-              <div class="partners__logo">
-                <a class="partners__logo" target="_blank">
-                  <img width="100%" src="../../images/REC.png">
+          <div class=" partners__row">
+            <div class="col s6 m3">
+              <div class="partners__links">
+                <a class="partners__logo" target="_blank" href="https://www.exportcenter.ru/">
+                  <img alt="РЭЦ" width="100px" src="<%=require('../../images/REC.png">
                 </a>
               </div>
             </div>
-            <div class="col s12 m6 ">
-              <div class="">
-                <a class="partners__logo" target="_blank">
-                  <img width="100%" src="../../images/TPP.png">
+            <div class="col s6 m3">
+              <div class="partners__links">
+                <a class="partners__logo" target="_blank" href="https://tpprf.ru/ru/">
+                  <img alt="ТПП" width="100px" src="<%=require('../../images/TPP.png">
                 </a>
               </div>
             </div>
-            <div class="col s12 m6 ">
-              <div class="">
-                <a class="partners__logo" target="_blank">
-                  <img width="100%" src="<%=require('../../images/EEC.png">>
+            <div class="col s6 m3">
+              <div class="partners__links">
+                <a class="partners__logo" target="_blank" href="https://eec.eaeunion.org/">
+                  <img alt="ЕЭК" width="100px" src="<%=require('../../images/EEC.png">
                 </a>
               </div>
             </div>
-            <div class="col s12 m6 ">
-              <div class="">
-                <a class="partners__logo" target="_blank">
-                  <img width="100%" src="<%=require('../../images/CCPIT.png">>
+            <div class="col s6 m3 ">
+              <div class="partners__links">
+                <a class="partners__logo" target="_blank" href="https://en.ccpit.org/">
+                  <img alt="CCPIT" width="100px" src="<%=require('../../images/CCPIT.png">
                 </a>
               </div>
             </div>
-            <div class="col s12 m6 ">
-              <div class="">
-                <a class="partners__logo" target="_blank">
-                  <img width="100%" src="<%=require('../../images/HYVE.png">>
+            <div class="col s6 m3 ">
+              <div class="partners__links">
+                <a class="partners__logo" target="_blank" href="https://russia.hyve.group/%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F">
+                  <img alt="HYVE" width="100px" src="<%=require('../../images/HYVE.png">
                 </a>
               </div>
             </div>
-            <div class="col s12 m6 ">
-              <div class="">
-                <a class="partners__logo" target="_blank">
-                  <img width="100%" src="<%=require('../../images/MF.png">>
+            <div class="col s6 m3 ">
+              <div class="partners__links">
+                <a class="partners__logo" target="_blank" href="https://ru.messefrankfurt.com/moscow/ru.html">
+                  <img alt="Messe Frankfurt" width="100px" src="<%=require('../../images/MF.png">
                 </a>
               </div>
             </div>
-            <div class="col s12 m6 ">
-              <div class="">
-                <a class="partners__logo" target="_blank">
-                  <img width="100%" src="<%=require('../../images/SLOVAK.jpg">>
+            <div class="col s6 m3 ">
+              <div class="partners__links">
+                <a class="partners__logo" target="_blank" href="https://www.sopk.sk/">
+                  <img alt="Slovak CCI" width="100px" src="<%=require('../../images/SLOVAK.jpg">
                 </a>
               </div>
             </div>
-            <div class="col s12 m6 ">
-              <div class="">
-                <a class="partners__logo" target="_blank">
-                  <img width="100%" src="<%=require('../../images/GAZ.jpg">>
+            <div class="col s6 m3 ">
+              <div class="partners__links">
+                <a class="partners__logo" target="_blank" href="https://gazpromneft-oil.ru/ru">
+                  <img alt="Gazprom" width="100px" src="<%=require('../../images/GAZ.svg">
+                </a>
+              </div>
+            </div>
+            <div class="col s6 m3 ">
+              <div class="partners__links">
+                <a class="partners__logo" target="_blank" href="https://asi.ru/">
+                  <img alt="ASI" width="100px" src="<%=require('../../images/ASI.png">
+                </a>
+              </div>
+            </div>
+            <div class="col s6 m3">
+              <div class="partners__links">
+                <a class="partners__logo" target="_blank" href="http://www.xa-ktjd.com/index.php?m=content&c=index&a=lists&catid=42">
+                  <img  alt="Китайско-российский парк высоких технологий «Инновационный Шёлковый путь»"
+                  width="100px" src="<%=require('../../images/RUCH.jpg">
+                </a>
+              </div>
+            </div>
+            <div class="col s6 m3 ">
+              <div class="partners__links">
+                <a class="partners__logo" target="_blank" href="https://www.skoltech.ru/?lang=ru">
+                  <img alt="SkolTech" width="100px" src="<%=require('../../images/SKOLTECH.png">
+                </a>
+              </div>
+            </div>
+            <div class="col s6 m3 ">
+              <div class="partners__links">
+                <a class="partners__logo" target="_blank" href="http://park-huamin-biznes-centr.ru/">
+                  <img alt="Huamin" width="100px" src="<%=require('../../images/HUAMIN.jpg">
+                </a>
+              </div>
+            </div>
+            <div class="col s6 m3 ">
+              <div class="partners__links">
+                <a class="partners__logo" target="_blank" href="https://мойбизнес.рф/support/podderzhka-eksporta">
+                  <img alt="Мой бизнес" width="100px" src="<%=require('../../images/MYB.png">
+                </a>
+              </div>
+            </div>
+            <div class="col s6 m3 ">
+              <div class="partners__links">
+                <a class="partners__logo" target="_blank" href="https://moscow-export.com/" href="https://moscow-export.com/">
+                  <img alt="Московский экспортный центр" width="100px" src="<%=require('../../images/MEC.png">
+                </a>
+              </div>
+            </div>
+            <div class="col s6 m3 ">
+              <div class="partners__links">
+                <a class="partners__logo" target="_blank" href="http://ru.deheheng.com/index.html">
+                  <img alt="DHH" width="100px" src="<%=require('../../images/DHH.png">
+                </a>
+              </div>
+            </div>
+            <div class="col s6 m3 ">
+              <div class="partners__links">
+                <a class="partners__logo" target="_blank" href="https://iabrics.org/">
+                  <img alt="BRICS International Alliance" width="100px" src="<%=require('../../images/BRICS.png">
+                </a>
+              </div>
+            </div>
+            <div class="col s6 m3 ">
+              <div class="partners__links">
+                <a class="partners__logo" target="_blank" href="http://www.chamber-rc.ru/ru/">
+                  <img alt="Российско-Китайская Палата по содействию торговле машинно-технической и инновационной продукцией"
+                  width="100px" src="<%=require('../../images/RCC.png">
+                </a>
+              </div>
+            </div>
+            <div class="col s6 m3 ">
+              <div class="partners__links">
+                <a class="partners__logo" target="_blank" href="https://messe-muenchen.ru/">
+                  <img alt="Messe Muenchen" width="100px" src="<%=require('../../images/MMI.png">
+                </a>
+              </div>
+            </div>
+            <div class="col s6 m3 ">
+              <div class="partners__links">
+                <a class="partners__logo" target="_blank" href="https://www.expocentr.ru/">
+                  <img alt="Экспоцентр" width="100px" src="<%=require('../../images/EXPO.jpg">
+                </a>
+              </div>
+            </div>
+            <div class="col s6 m3 ">
+              <div class="partners__links">
+                <a class="partners__logo" target="_blank" href="https://cis.minsk.by/">
+                  <img alt="Исполнительный комитет СНГ" width="100px" src="<%=require('../../images/ISPSNG.png">
+                </a>
+              </div>
+            </div>
+            <div class="col s6 m3 ">
+              <div class="partners__links">
+                <a class="partners__logo" target="_blank" href="http://hepaoffice.com.ru/">
+                  <img alt="HEPA" width="100px" src="<%=require('../../images/HEPA.jpg">
+                </a>
+              </div>
+            </div>
+            <div class="col s6 m3 ">
+              <div class="partners__links">
+                <a class="partners__logo" target="_blank" href="https://www.prlib.ru/">
+                  <img alt="Президентская библиотека" width="100px" src="<%=require('../../images/LIB.jpg">
                 </a>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <section class="leave-contacts">
+        <h2 class="title leave-contacts__title white-text">Оставьте заявку</h2>
+        <div class="container">
+      <div class="row">
+        <div class="col s12 m4 l3  xl4">
+          <div class="card-panel contacts">
+            <p class="iphone contacts__phone white-text"><strong>+7 916 756 32 01</strong></p>
+            <p class="email contacts__email white-text"><strong>info@incoun.ru</strong></p>
+          </div>
+        </div>
+        <div class="col s12 m8 l9 xl7">
+            <form class="col s12 m12 l12 offset-l2 input-field-form_contacts input-field-form" style="width: 90%;">
+              <div class="row">
+                <div class="input-field col s12 m12 l12 xl12">
+                  <i class="material-icons prefix icon-blue">account_circle</i>
+                  <input id="icon_prefix_f" type="text" class="validate">
+                  <label for="icon_prefix_f">Имя</label>
+                  <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+                </div>
+                <div class="input-field col s12 m12 l12 xl12">
+                  <i class="material-icons prefix icon-blue">phone</i>
+                  <input id="icon_telephone_f" type="tel" class="validate">
+                  <label for="icon_telephone_f">Телефон</label>
+                  <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+                </div>
+                <div class="input-field col s12 m12 l12 ">
+                  <i class="material-icons prefix icon-blue">email</i>
+                  <input id="icon_email_f" type="email" class="validate">
+                  <label for="icon_email_f">Email</label>
+                  <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+                </div>
+                <div class="input-field col s12 m12 l12">
+                  <i class="material-icons prefix icon-blue">mode_edit</i>
+                  <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                  <label for="icon_prefix2">Сообщение</label>
+                </div>
+                <div class="col input-field s10 m3 l12 xl12 main__form-btn main__form-btn_contacts">
+                  <a class="waves-effect waves-light btn main__form-bt main__form-bt_contacts">Отправить</a>
+                </div>
+              </div>
+            </form>
+          </div>
+      </div>
+    </div>
+      </section>
+      <footer class="page-footer footer">
+        <div class="container ">
+          <div class="row">
+            <div class="col l6 m7 s12 xl7" style="padding:0">
+                <a id="logo" class="link logo footer__logo brand-logo" href="./index.html">
+                  <img alt="logo" src="./images/favicon.ico" width="50px" height="50px">
+                  <p class="footer__text-logo">Международный совет экономического<br> сотрудничества регионов</p>
+                </a>
+            </div>
+            <div class="col l4 m5 offset-l2 xl3 offset-xl2 s12 footer__links">
+              <h5 class="white-text">Ссылки:</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="http://incoun.ru">Официальный сайт</a></li>
+                <li><a class="grey-text text-lighten-3" href="https://facebook.com/incouncil/">Facebook</a></li>
+                <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/incouncil/">Instagram</a></li>
+                <li><a class="grey-text text-lighten-3" href="https://t.me/incoun">Telegram</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2021 Все права защищены
+          <a class="grey-text text-lighten-4 right" href="https://facebook.com/incouncil/"><img  width="30px" style="margin-left:10px; opacity: 0.5;" src="<%=require('../../images/facebook.png"></a>
+          <a class="grey-text text-lighten-4 right" href="https://www.instagram.com/incouncil/"><img width="30px" style="margin-left:10px; opacity: 0.5;" src="<%=require('../../images/instagram.png"></a>
+          <a class="grey-text text-lighten-4 right" href="https://t.me/incoun"><img width="30px" style="margin-left:10px; opacity: 0.5;" src="<%=require('../../images/telegram.png"></a>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

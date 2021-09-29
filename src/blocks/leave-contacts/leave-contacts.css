@@ -1,0 +1,16 @@
+@import url(./__title/leave-contacts__title.css);
+
+.leave-contacts{
+  padding-top: 40px;
+  background: linear-gradient(to right, #0000cc87 30%, #3366ccba 89%);
+  padding-bottom: 20px;
+}
+.main__form-btn_contacts{
+  text-align: center;
+  width: 100% !important;
+
+}
+
+.main__form-bt_contacts{
+  width: 90%;
+}

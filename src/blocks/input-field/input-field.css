@@ -12,6 +12,9 @@
   box-sizing: border-box;
   background: white;
   border-radius: 2px;
+  width: 100%;
+  display: block;
+  padding-top: 10px !important;
 }
 
 .input-form-row{

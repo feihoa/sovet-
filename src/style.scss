@@ -1,0 +1,139 @@
+html{
+  line-height: 1.5;
+
+  @media only screen and (max-width: 600px) {
+    .footer__logo{
+      justify-content: center;
+
+    }
+    .footer__links{
+      text-align:center;
+    }
+    .partners__links {
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+    .main-block{
+      padding-bottom: 20px;
+    }
+    .leave-contacts{
+      padding-bottom: 20px;
+    }
+    .who-we-are__container{
+      width: 90%;
+    }
+  .who-we-are__card{
+    width: 100% !important;
+  }
+
+  .title{
+    font-size: 30px !important;
+
+  }
+  .main__title{
+    font-size: 33px !important;
+    max-width: 90%;
+    margin-top: 20px;
+
+  }
+  .main__subtitle{
+    font-size: 18px !important;
+
+  }
+  .header__text-logo{
+    display: none;
+  }
+  .who-we-are__title{
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .who-we-are__subtitle{
+    margin: 0;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .who-we-are{
+    padding-top:10px;
+    padding-bottom:10px
+  }
+  .services__title{
+    margin-top:20px;
+  }
+  .main__form-bt{
+    width: 90%;
+  }
+  .card-title{
+    font-size: 18px !important;
+  }
+  .who-we-are__card-subtitle{
+    font-size: 16px !important;
+
+  }
+  .input-field-form_contacts{
+    width: 100% !important;
+  }
+  }
+
+  @media only screen and (min-width: 600px) and (max-width:992px) {
+
+    .main__title{
+      max-width: 90%;
+      margin-top: 20px;
+
+    }
+    .who-we-are__title{
+      text-align: center;
+      display: block;
+      margin-bottom: 10px;
+    }
+    .who-we-are__subtitle{
+      margin: 0;
+      display: block;
+      margin: auto;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .who-we-are{
+      padding-top:10px;
+      padding-bottom:10px
+    }
+    .container__adapt{
+      width: 90% !important;
+    }
+    .input-field-form_contacts{
+      max-width: 500px;
+    }
+  }
+
+  @media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .container__adapt{
+      width: 90% !important;
+    }
+    .input-field-form_contacts{
+      max-width: 500px;
+    }
+  }
+
+  @media only screen and (min-width: 1201px) {
+    .container__adapt{
+      width: 90% !important;
+    }
+    .input-field{
+      width: 30%;
+    }
+    .main__form-btn{
+      width: 10%;
+      padding: 0;
+    }
+    .input-field-form_contacts{
+      max-width: 800px;
+    }
+    .main__form-bt_contacts{
+      width: 300px;
+    }
+  }
+
+}
