@@ -2,11 +2,11 @@
   min-height: 165px;
 }
 
-.flaticon_icon{
+.cardicon_icon{
   padding: 5px;
   max-width: 100px;
 }
-.card-image__flaticon_icon{
+.card-image__cardicon_icon{
   margin: auto;
 }
 .services__card{
