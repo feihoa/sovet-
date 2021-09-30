@@ -2,7 +2,8 @@
 
 .leave-contacts{
   padding-top: 40px;
-  background: linear-gradient(to right, #0000cc87 30%, #3366ccba 89%);
+  background: linear-gradient(to top right, #4666da51 10%, RGB(85,124,139) 60%), linear-gradient(to bottom right, #4666da51 10%, RGB(85,124,139) 80%),
+  linear-gradient(to top right, RGB(85,124,139) 80%, #fff 100%);
   padding-bottom: 20px;
 }
 .main__form-btn_contacts{

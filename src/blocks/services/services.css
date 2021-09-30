@@ -1,4 +1,6 @@
 @import url(./__title/services__title.css);
+@import url(./__card/services__card.css);
+@import url(./__card-text/services__card-text.css);
 
 .services{
   width: 100%;
