@@ -1,16 +1,25 @@
-$btn-imp-color: crimson;
+$btn-imp-color: #349198;
+$btn-imp-color-hover: crimson;
 
 html{
+  .btn{
+    background: $btn-imp-color
+   }
+
+   .btn:hover{
+    background: $btn-imp-color-hover
+
+   }
   input:focus, textarea:focus {
-    border-bottom: 1px solid $btn-imp-color !important;
-    box-shadow: 0 1px 0 0 $btn-imp-color !important;
+    border-bottom: 1px solid $btn-imp-color-hover !important;
+    box-shadow: 0 1px 0 0 $btn-imp-color-hover !important;
   }
 
   label.active {
-    color: $btn-imp-color !important;
+    color: $btn-imp-color-hover !important;
   }
   .input-field .prefix.active{
-    color: $btn-imp-color !important;
+    color: $btn-imp-color-hover !important;
   }
 
   @media only screen and (max-width: 600px) {

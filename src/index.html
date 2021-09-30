@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>ЭКСОР</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -29,28 +29,28 @@
           <br>Мы расскажем!</h5>
           <div class="container container__adapt">
           <div class="row" >
-            <form class="col s12 m12 l12 xl12 input-field-form" width="100%">
+            <form class="col s12 m12 l12 xl12 input-field-form" width="100%" action="send.php" method="POST">
               <div class="row" >
                 <div class="input-field col s12 m3 l3 xl3">
                   <i class="material-icons prefix icon-blue">account_circle</i>
-                  <input id="icon_prefix" type="text" class="validate">
+                  <input id="icon_prefix" type="text" name="name" class="validate" required>
                   <label for="icon_prefix">Имя</label>
                   <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
                 </div>
                 <div class="input-field col s12 m3 l3 xl3">
                   <i class="material-icons prefix icon-blue">phone</i>
-                  <input id="icon_telephone" type="tel" class="validate">
+                  <input id="icon_telephone" type="tel" name="tel" class="validate" required>
                   <label for="icon_telephone">Телефон</label>
                   <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
                 </div>
                 <div class="input-field col s12 m3 l3 ">
                   <i class="material-icons prefix icon-blue">email</i>
-                  <input id="icon_email" type="email" class="validate">
+                  <input id="icon_email" type="email" name="email" class="validate">
                   <label for="icon_email">Email</label>
                   <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
                 </div>
                 <div class="col input-field s10 m3 l3 xl3 offset-s1 main__form-btn">
-                  <a class="waves-effect waves-light btn main__form-bt">Отправить</a>
+                  <button class="waves-effect waves-light btn main__form-bt" type="submit">Отправить</button>
                 </div>
               </div>
             </form>
@@ -61,8 +61,9 @@
       <section class="who-we-are">
         <div class="who-we-are__container">
           <h1 class="title who-we-are__title flow-text">КТО МЫ?</h1>
-          <p class="who-we-are__subtitle flow-text"><strong>Консалтинговое агентство в сфере экспорта</strong><br>
-            Мы помогаем российским компаниям находить иностранных партнеров и организовать экспорт продукции на зарубежные рынки
+          <p class="who-we-are__subtitle flow-text"><strong>Международная организация</strong><br>
+            Мы осуществляем содействие в реализации и продвижении инвестиционных проектов, программ и бизнес-инициатив в области межрегионального
+            и международного сотрудничества, развития международной торговли, экспорте, импорте, ВЭД
           </p>
             <div class="row">
               <div class="col x14 l4 m12 ml2 center-align who-we-are__card">
@@ -395,33 +396,33 @@
           </div>
         </div>
         <div class="col s12 m8 l9 xl7">
-            <form class="col s12 m12 l12 offset-l2 input-field-form_contacts input-field-form" style="width: 90%;">
+            <form class="col s12 m12 l12 offset-l2 input-field-form_contacts input-field-form" style="width: 90%;" onsubmit="return false" action="send.php" method="POST">
               <div class="row">
                 <div class="input-field col s12 m12 l12 xl12">
                   <i class="material-icons prefix icon-blue">account_circle</i>
-                  <input id="icon_prefix_f" type="text" class="validate">
+                  <input id="icon_prefix_f" type="text" name="name" class="validate" required>
                   <label for="icon_prefix_f">Имя</label>
                   <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
                 </div>
                 <div class="input-field col s12 m12 l12 xl12">
                   <i class="material-icons prefix icon-blue">phone</i>
-                  <input id="icon_telephone_f" type="tel" class="validate">
+                  <input id="icon_telephone_f" type="tel" name="tel" class="validate" required>
                   <label for="icon_telephone_f">Телефон</label>
                   <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
                 </div>
                 <div class="input-field col s12 m12 l12 ">
                   <i class="material-icons prefix icon-blue">email</i>
-                  <input id="icon_email_f" type="email" class="validate">
+                  <input id="icon_email_f" type="email" name="email" class="validate">
                   <label for="icon_email_f">Email</label>
                   <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
                 </div>
                 <div class="input-field col s12 m12 l12">
                   <i class="material-icons prefix icon-blue">mode_edit</i>
-                  <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                  <textarea id="icon_prefix2" class="materialize-textarea validate" name="text"></textarea>
                   <label for="icon_prefix2">Сообщение</label>
                 </div>
                 <div class="col input-field s10 m3 l12 xl12 main__form-btn main__form-btn_contacts">
-                  <a class="waves-effect waves-light btn main__form-bt main__form-bt_contacts">Отправить</a>
+                  <button class="waves-effect waves-light btn main__form-bt main__form-bt_contacts" type="submit">Отправить</button>
                 </div>
               </div>
             </form>

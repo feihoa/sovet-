@@ -16,12 +16,4 @@ a {
   text-decoration: none; /* Отменяем подчеркивание у ссылки */
  }
 
- .btn{
-  background: crimson
- }
-
- .btn:hover{
-  background: #7972D8
-
- }
 
