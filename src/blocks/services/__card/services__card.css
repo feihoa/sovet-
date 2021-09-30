@@ -1,0 +1,14 @@
+.services__card{
+  min-height: 165px;
+}
+
+.flaticon_icon{
+  padding: 5px;
+  max-width: 100px;
+}
+.card-image__flaticon_icon{
+  margin: auto;
+}
+.services__card{
+  min-height:185px
+}

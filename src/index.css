@@ -17,7 +17,7 @@ a {
  }
 
  .btn{
-  background: #574DD8
+  background: crimson
  }
 
  .btn:hover{
@@ -25,14 +25,3 @@ a {
 
  }
 
- input:focus {
-  border-bottom: 1px solid royalblue !important;
-  box-shadow: 0 1px 0 0 royalblue !important;
-}
-
-label.active {
-  color: royalblue !important;
-}
-.input-field .prefix.active{
-  color: #352F85 !important;
-}

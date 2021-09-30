@@ -1,7 +1,31 @@
+$btn-imp-color: crimson;
+
 html{
-  line-height: 1.5;
+  input:focus, textarea:focus {
+    border-bottom: 1px solid $btn-imp-color !important;
+    box-shadow: 0 1px 0 0 $btn-imp-color !important;
+  }
+
+  label.active {
+    color: $btn-imp-color !important;
+  }
+  .input-field .prefix.active{
+    color: $btn-imp-color !important;
+  }
 
   @media only screen and (max-width: 600px) {
+    .who-we-are__card-content, .who-we-are__card {
+      min-height: unset;
+    }
+    .flaticon_icon{
+      max-width: 100px !important;
+    }
+    .card-image__flaticon_icon {
+      margin: 0;
+    }
+    .services__card {
+       min-height: 142px;
+    }
     .footer__logo{
       justify-content: center;
 

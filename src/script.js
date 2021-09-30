@@ -27,3 +27,10 @@ import "./images/telegram.png";
 import "./images/facebook.png";
 import "./images/instagram.png";
 
+import "./images/global.svg";
+import "./images/growth.svg";
+import "./images/boss.png";
+import "./images/influencer.png";
+import "./images/computer.svg";
+import "./images/consult.png";
+
