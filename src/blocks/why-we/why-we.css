@@ -2,6 +2,6 @@
 @import url(./__reason/why-we__reason.css);
 
 .why-we{
-  background: linear-gradient(to bottom right, #4666da51 10%, RGB(85,124,139) 40%), linear-gradient( rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.4) );
+  background: #1b9ea8e0;
   padding-bottom: 40px;
 }
