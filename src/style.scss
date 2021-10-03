@@ -138,7 +138,12 @@ html{
   }
 
   @media only screen and (min-width: 600px) and (max-width:992px) {
-
+    .services__card {
+      min-height: 187px;
+   }
+    .cardicon_icon{
+      max-width: 100px !important;
+    }
     .main__title{
       max-width: 90%;
       margin-top: 20px;

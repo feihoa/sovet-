@@ -1,5 +1,5 @@
 .main-block{
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.3) ), url('../../images/vertical.jpg');
+  background: linear-gradient( #1b5f64a8, rgb(230 221 221 / 30%) ), url('../../images/vertical.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

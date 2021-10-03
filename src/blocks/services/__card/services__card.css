@@ -1,7 +1,8 @@
-.services__card{
-  min-height: 165px;
-}
 
+.cardicon_icon{
+  padding: 5px;
+  max-width: 100px;
+}
 .cardicon_icon{
   padding: 5px;
   max-width: 100px;
@@ -9,6 +10,7 @@
 .card-image__cardicon_icon{
   margin: auto;
 }
+
 .services__card{
   min-height:185px
 }

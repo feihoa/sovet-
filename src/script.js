@@ -1,4 +1,5 @@
 import validator from 'validator';
+import {Api} from "./Api.js";
 
 import "./style.scss";
 import 'materialize-css'
@@ -36,9 +37,7 @@ import "./images/influencer.png";
 import "./images/computer.svg";
 import "./images/consult.png";
 
-const telInputs = document.querySelectorAll("input[name='tel']");
-const emailInputs = document.querySelectorAll("input[name='email']");
-const nameInputs = document.querySelectorAll("input[name='name']");
+export const api = new Api()
 
 if (window.location.pathname.includes("/index.html")) {
   window.location.pathname = window.location.pathname.replace(
@@ -86,14 +85,14 @@ const errorMessage = (el) =>{
     }
 }
 }
+const btns = document.querySelectorAll("button");
+const inputs = document.querySelectorAll("input");
+const textAreas = document.querySelectorAll("textarea");
 
 const setError = (el) =>{
   const errorElement = document.querySelector(`#error-${el.id}`);
-  const labolElement = document.querySelector(`label[for="${el.id}"]`);
-  console.log(labolElement)
   const errorM = errorMessage(el)
   errorElement.textContent = errorM;
-  console.log(errorM)
   errorElement.setAttribute('style', 'color:red');
   if(errorMessage(el)){
     el.setAttribute('class', 'invalid')
@@ -103,20 +102,80 @@ const setError = (el) =>{
   }
 }
 
-function sub(form){
+function blockForms(block){
 
-form.addEventListener('submit', function (e) {
+  if(block){
+   function blockAll(elems){
+     elems.forEach((el) => {
+      el.disabled = true
+     })
+   }
+   blockAll(btns)
+   blockAll(inputs)
+   blockAll(textAreas)
+
+  }else{
+    function unblockAll(elems){
+      elems.forEach((el) => {
+       el.disabled = false
+      })
+    }
+    unblockAll(btns)
+    unblockAll(inputs)
+    unblockAll(textAreas)
+  }
+}
+const submitHandler = (e) => {
   e.preventDefault();
-
    setError(e.target.elements.name)
    setError(e.target.elements.email)
    setError(e.target.elements.tel)
 
   if(handleValidate(e.target)){
-    console.log('jn')
-  }
+    blockForms(true);
+    let text = ''
+      if(!(e.target.elements.text)){
+        text ='Сообщение не передано'
+      }else{
+        text = e.target.elements.text.value
+      }
+    api.sendForm(
+      e.target.elements.name.value,
+      e.target.elements.tel.value,
+      e.target.elements.email.value,
+      text,
+      ).then(() => {
+        M.toast({html: 'Успешно отправлено!'})
+        blockForms(false);
+        document.forms[0].reset();
+        document.forms[1].reset();
 
-})
+      }).catch((err) => {
+        M.toast({html: `Ошибка отправки`})
+        blockForms(false);
+      })
+  }
 }
-sub(document.forms[0])
-sub(document.forms[1])
+
+
+document.forms[0].addEventListener('submit', function (e) {
+  e.preventDefault()
+  submitHandler(e);
+},
+);
+document.forms[1].addEventListener('submit', function (e) {
+  e.preventDefault()
+  submitHandler(e);
+},
+);
+
+document.forms[0].removeEventListener('submit', function (e) {
+  e.preventDefault()
+  submitHandler(e);
+},
+);
+document.forms[1].removeEventListener('submit', function (e) {
+  e.preventDefault()
+  submitHandler(e);
+},
+);
