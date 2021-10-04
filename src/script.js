@@ -134,7 +134,7 @@ const submitHandler = (e) => {
   if(handleValidate(e.target)){
     blockForms(true);
     let text = ''
-      if(!(e.target.elements.text)){
+      if(!(e.target.elements.text) || !(e.target.elements.text.value)){
         text ='Сообщение не передано'
       }else{
         text = e.target.elements.text.value
